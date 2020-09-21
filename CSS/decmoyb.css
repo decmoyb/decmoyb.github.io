@@ -1,0 +1,32 @@
+<style>
+
+  @font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+  }
+
+
+body {
+  background-color:lightpink;
+}
+
+a:link, a:visited {
+  background-color:lightpink;
+  color: rgb(255, 255, 149);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: skyblue;
+}
+
+.center {
+  text-align: center;
+  font-family: dec-3;
+  font-size: 75%;
+
+
+</style>
