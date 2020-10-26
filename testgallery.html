@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Gallery</title>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+<style>
+
+
+body {
+background-color:skyblue;
+
+}
+
+@font-face {
+font-family: dec-3;
+src: url(dec-3.ttf);
+}
+
+
+a:link, a:visited {
+background-color: skyblue;
+color: rgb(255, 255, 149);
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+
+a:hover, a:active {
+background-color: lightpink;
+}
+
+.center {
+text-align: center;
+font-family: dec-3;
+font-size: 75%;
+color: rgb(255, 255, 149);
+}
+
+
+
+.gallery {
+width: 50%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+    
+}
+
+.thumbnails a {
+    float: left;
+    width: 25%;
+}
+
+
+@media all and (min-width: 640px) {}
+
+@media all and (min-width: 768px) {}
+
+@media all and (min-width: 1024px) {}
+
+@media all and (min-width: 1280px) { 
+
+.center {
+font-size: 110%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+    
+    <div class="center">
+        <p>Posters</p>
+    </div>
+    <br>
+
+    <div class="gallery">
+        <a href="images/comicscomics1.jpg" data-lightbox="gallery" data-title="Comics Comics 1 poster"><img src="images/comicscomics1.jpg" alt="Comics Comics 1 Cover"></a>
+        <a href="images/putontable.jpg" data-lightbox="gallery"><img src="images/putontable.jpg" alt="Put On Table"></a>
+        <a href="images/bimp1.png" data-lightbox="gallery"><img src="images/bimp1.png" alt="B.I.M.P"></a>
+        <a href="images/inourfridge.jpg" data-lightbox="gallery"><img src="images/inourfridge.jpg" alt="In Our Fridge"></a>
+        <a href="images/newfornow.jpg" data-lightbox="gallery"><img src="images/newfornow.jpg" alt="New For Now"></a>
+    </div>
+
+</body>
