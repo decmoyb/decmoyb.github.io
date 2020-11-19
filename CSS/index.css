@@ -1,3 +1,51 @@
-img {max-width: 100%;
-height: auto
+@font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+  }
+
+
+body {
+  background-color: #ffa6b3;
+  position: relative;
+}
+
+.containers {
+  text-align: center;
+  font-family: dec-3;
+  color: #FFFF95;
+  font-size: 75%;
+}
+
+.about {
+  position: absolute;
+  top: 2rem;
+  left: 0px;
+  right: 0px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  position: absolute;
+  bottom: 2rem;
+  right: 0px;
+  left: 0px;
+}
+
+a:link, a:visited {
+  background-color: #ffa6b3;
+  color: #FFFF95;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: skyblue;
 }

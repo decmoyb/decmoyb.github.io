@@ -1,0 +1,52 @@
+@font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+}
+
+body {
+    background-color: skyblue;
+    font-family: dec-3;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    color: #ffff95;  
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+.column {   
+    flex: 25%;
+    max-width: 100%;
+    padding: 10px 10px
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.grid img {
+    width: 100%;
+}
