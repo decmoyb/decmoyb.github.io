@@ -27,17 +27,25 @@ a:link, a:visited {
     text-decoration: none;
   }
   
-  a:hover, a:active {
+a:hover, a:active {
     background-color: #ffa6b3;
     padding: 2vw;
   }
 
-  .button {
+iframe {
+  border: 0;
+  width: 40vw;
+  height: 40vw;
+}
+
+
+
+.button {
       text-align: center;
       position: relative;
   }
 
-  .accordion {
+.accordion {
     background-color: #ffa6b3;
     color: #FFFF95;
     font-family: dec-3;
@@ -50,11 +58,11 @@ a:link, a:visited {
     transition: 0.3s;
   }
 
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #ffa6b3;
   }
   
-  .panel {
+.panel {
     font-family: dec-3;
     font-size: .8rem;
     background-color: #FFFF95;
