@@ -5,6 +5,8 @@
 
 body {
     background: skyblue;
+    margin-left: 5%;
+    margin-right: 5%
 }
 
 .header {
@@ -16,7 +18,7 @@ body {
     font-family: dec-3;
     color: #FFFF95;
     text-align: center;
-    font-size: 190%;
+    font-size: 170%;
     margin: 0px;
 }
 
@@ -31,7 +33,6 @@ a:hover, a:active {
     background-color: #ffa6b3;
     padding: 2vw;
   }
-
 
 
 .button {
@@ -71,8 +72,8 @@ a:hover, a:active {
 
 iframe {
     border: 0;
-    width: 100vw;
-    height: 100vw;
+    width: 70vw;
+    height: 70vw;
   }
 
 .button-2 {
@@ -116,3 +117,5 @@ iframe {
   position: relative;
   margin-top: 5vh;
 }
+
+
