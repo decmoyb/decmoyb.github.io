@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   
     body {
       background: skyblue;
@@ -64,7 +64,7 @@
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    width: 35%;
+    width: 38%;
     display: flex;
     justify-content: center;
   }
