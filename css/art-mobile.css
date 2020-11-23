@@ -6,6 +6,12 @@ body {
     background-color: white;
 }
 
+a:hover, a:active {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
 a:link, a:visited {
     background-color: black;
     color: white;
