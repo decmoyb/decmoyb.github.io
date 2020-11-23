@@ -3,12 +3,12 @@
     src: url(dec-3.ttf);
   }
 body {
-    background-color: black;
+    background-color: white;
 }
 
 a:link, a:visited {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
   }
@@ -19,8 +19,8 @@ a:link, a:visited {
 }
 
 .accordion {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-family: dec-3;
   cursor: pointer;
   padding: 4%;
@@ -33,13 +33,13 @@ a:link, a:visited {
 }
 
 .active, .accordion:hover {
-  background-color: white;
+  background-color: black;
 }
 
 .panel {
   font-family: dec-3;
   font-size: .8rem;
-  background-color: white;
+  background-color: black;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
