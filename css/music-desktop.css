@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   
     body {
       background: skyblue;
@@ -44,7 +44,7 @@
     color: #FFFF95;
     font-family: dec-3;
     cursor: pointer;
-    padding: 2%;
+    padding: 1%;
     border: none;
     text-align: left;
     outline: none;

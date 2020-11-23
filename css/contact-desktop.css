@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+
+#header-link {
+  padding: 0px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.title {
+      font-family: dec-3;
+      color: #FFFF95;
+      text-align: center;
+      font-size: 170%;
+      padding: 0px;
+      margin: 0px;
+  }    
+
+.button {
+    text-align: center;
+    position: relative;
+}
+
+.accordion {
+  background-color: #ffa6b3;
+  color: #FFFF95;
+  font-family: dec-3;
+  cursor: pointer;
+  padding: 1%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .8rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #ffa6b3;
+}
+
+.panel {
+  font-family: dec-3;
+  font-size: .8rem;
+  background-color: #FFFF95;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+}
