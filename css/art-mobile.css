@@ -6,18 +6,18 @@ body {
     background-color: white;
 }
 
-a:hover, a:active {
+#header-link:hover, #header:active {
     background-color: white;
     color: black;
     padding: 1px;
 }
 
-a:link, a:visited {
+#header-link:link, #header-link:visited {
     background-color: black;
     color: white;
     text-align: center;
     text-decoration: none;
-  }
+}    
 
 .button {
     text-align: center;
@@ -51,4 +51,41 @@ a:link, a:visited {
   transition: max-height 0.2s ease-out;
   width: 100%;
   margin: auto;
+}
+
+.title {
+    font-family: dec-3;
+    color: black;
+    text-align: center;
+    font-size: 170%;
+    margin: 0px;
+
+}
+
+.text {
+    font-family: dec-3;
+    text-align: center;
+    font-size: .8rem;
+    padding-bottom: 12vw;
+}
+
+text:link {
+    background-color: white;
+}
+
+#art-links:link, #art-links:visited {
+    text-decoration: none;
+    color: black;
+    border-radius: .5vw;
+}
+
+#art-links:hover, #art-links:active {
+    background-color: black;
+    color:white;
+    padding-left: .8vw;
+    padding-bottom: .5vw;
+}
+
+a.text {
+    padding: 20px;
 }
