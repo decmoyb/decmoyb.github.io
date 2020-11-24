@@ -76,16 +76,14 @@ text:link {
 #art-links:link, #art-links:visited {
     text-decoration: none;
     color: black;
-    border-radius: .5vw;
 }
 
 #art-links:hover, #art-links:active {
     background-color: black;
     color:white;
+    padding-top: 0px;
     padding-left: .8vw;
     padding-bottom: .5vw;
+    padding-right: 0vw;
 }
 
-a.text {
-    padding: 20px;
-}
