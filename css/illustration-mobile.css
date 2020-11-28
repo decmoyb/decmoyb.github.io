@@ -1,0 +1,80 @@
+@font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+  }
+
+
+#header-link:hover, #header:active {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+#header-link:link, #header-link:visited {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}    
+
+.button {
+    text-align: center;
+    position: relative;
+}
+
+.accordion {
+  background-color: black;
+  color: white;
+  font-family: dec-3;
+  cursor: pointer;
+  padding: 4%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .8rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: black;
+}
+
+.panel {
+  font-family: dec-3;
+  font-size: .8rem;
+  background-color: black;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+    font-family: dec-3;
+    color: black;
+    text-align: center;
+    font-size: .8rem;
+    margin: 0px;
+}
+
+body {
+    padding: 1vw;
+    background-color:;
+} 
+
+.images {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 95%;
+    height: auto;
+}
+
+p.imagetext {
+    font-family: dec-3;
+    font-size: .5rem;
+}
