@@ -32,7 +32,12 @@
     p.imagetext {
         font-family: dec-3;
         font-size: .3rem;
-        padding-bottom: 1vw;
+        padding-bottom: 3vw;
     }
+
+    img {
+    }
+
+    <!-- hello -->
 }
 
