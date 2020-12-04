@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    .accordion {
+        padding: 1%;  
+      }
+
+      
+#art-links:link, #art-links:visited {
+    text-decoration: none;
+    color: black;
+}
+
+      #art-links:hover, #art-links:active {
+        background-color: black;
+        color:white;
+        padding-top: 0px;
+        padding-left: .3vw;
+        padding-bottom: .2vw;
+        padding-right: .1vw;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imagecolumn {
+        flex: 25%;
+        max-width: 25%;
+    
+    }
+
+}
+
