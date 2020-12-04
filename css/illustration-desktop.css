@@ -9,7 +9,7 @@
     color: black;
 }
 
-      #art-links:hover, #art-links:active {
+    #art-links:hover, #art-links:active {
         background-color: black;
         color:white;
         padding-top: 0px;
@@ -25,9 +25,14 @@
 
     .imagecolumn {
         flex: 25%;
-        max-width: 25%;
-    
+        max-width: 24%;
     }
 
+
+    p.imagetext {
+        font-family: dec-3;
+        font-size: .3rem;
+        padding-bottom: 1vw;
+    }
 }
 
