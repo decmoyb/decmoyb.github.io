@@ -27,9 +27,6 @@ a:link, a:visited {
     text-decoration: none;
   }
   
-a:hover, a:active {
-    background-color: #ffa6b3;
-  }
 
 
 .button {

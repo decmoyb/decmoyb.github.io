@@ -5,8 +5,6 @@
 
 #header-link {
   padding: 0px;
-  padding-left: 1vw;
-  padding-right: 1vw;
 }
 
 .title {
@@ -41,6 +39,7 @@
   background-color: #ffa6b3;
 }
 
+
 .panel {
   font-family: dec-3;
   font-size: .8rem;
@@ -48,9 +47,7 @@
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 30%;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .text {

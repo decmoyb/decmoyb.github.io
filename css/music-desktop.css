@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   
     body {
       background: skyblue;
@@ -24,13 +24,6 @@
       text-decoration: none;
     }
     
-  a:hover, a:active {
-      background-color: #ffa6b3;
-      padding-top: 0;
-      padding-left: 2px;
-      padding-right: 1px
-
-    }
   
   .button {
       text-align: center;
