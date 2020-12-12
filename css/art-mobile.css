@@ -66,12 +66,13 @@ body {
     font-family: dec-3;
     text-align: center;
     font-size: .8rem;
-    padding-bottom: 12vw;
+    padding-bottom: 1vw;
 }
 
 text:link {
     background-color: white;
 }
+
 
 #art-links:link, #art-links:visited {
     text-decoration: none;

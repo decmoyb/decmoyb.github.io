@@ -2,8 +2,6 @@
   
     body {
       background: skyblue;
-      margin-left: 5%;
-      margin-right: 5%
   }
   
   .header {
@@ -63,10 +61,8 @@
     background-color: #FFFF95;
     max-height: 0px;
     overflow: hidden;
+    width: 100%;
     transition: max-height 0.2s ease-out;
-    width: 38%;
-    display: flex;
-    justify-content: center;
   }
 
   #header-link {
