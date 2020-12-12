@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/illustration-mobile.css">
     <link rel="stylesheet" href="css/illustration-desktop.css">
     <link rel="stylesheet" href="css/illustration-modal.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
 </head>
 <body>
     <div class="button">
@@ -38,11 +40,17 @@
     <div class="images">
 
     <div class="imagecolumn">
-        <img id="myImg" src="images/corzone-cover-web.jpg" alt="Corzone And Decky Ramone Cover Photo">
+
+        <a href="images/corzone-cover-web.jpg" data-lightbox="group-1"><img src="images/corzone-cover-web.jpg" alt="Corzone And Decky Ramone Cover Photo"></a>
+    
         <p class="imagetext">Corzone And Decky Ramone Cover Photo</p>
-        <img src="images/the-garden-poster-web.jpg" alt="Poster For The Garden and The Draculas">
+
+        <a href="images/the-garden-poster-web.jpg" data-lightbox="group-1"><img src="images/the-garden-poster-web.jpg" alt="Poster For The Garden and The Draculas"></a>
+        
         <p class="imagetext">Poster For The Garden and The Draculas</p>
-        <img src="images/some-suit-poster-web.jpg" alt="Some Suit Poster">
+
+        <a href="images/some-suit-poster-web.jpg"><img src="images/some-suit-poster-web.jpg" alt="Some Suit Poster"></a>
+        
         <p class="imagetext">Poster for "SOME SUIT" Thesis Show</p>
         <img src="images/which-level-can't-say-1-0-web.jpg" alt="Which Level, Can't Say">
         <p class="imagetext">"Which Level, Can't Say"</p>
@@ -94,7 +102,7 @@
         <img src="images/which-way-window-1-illustration-web.jpg" alt="Which Way Window 1">
         <p class="imagetext">"Which Way Window 1"</p>
         <img src="images/which-way-window-2-illustration-web.jpg" alt="Which Way Window 2">
-        <p class="imagetext">"Which Way Window 2"</p>
+        <p class="imagetext">Which Way Window 2"</p>
         <img src="images/which-way-window-3-illustration-web.jpg" alt="Which Way Window 3">
         <p class="imagetext">"Which Way Window 3"</p>
         <img src="images/world-tour-illustration-web.jpg" alt="World Tour">
@@ -125,19 +133,21 @@
         <p class="imagetext">"4 Wheel Raceer 4 Race"</p>
     </div>
 
-    <!-- The Modal -->
-<div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
-
-  
-     
     
     </div>
 
 <script src="js/illustration.js"></script>
-    
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script>
+
+    lightbox.option({
+    'fitImagesInViewport':	true,
+    'maxHeight': 100;
+})
+
+</script>
+
 </body>
 </html>

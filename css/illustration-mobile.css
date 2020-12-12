@@ -72,11 +72,12 @@ body {
 img {
     width: 95%;
     height: auto;
-    padding-bottom: 1vw;
+
 }
 
 p.imagetext {
     font-family: dec-3;
     font-size: .5rem;
-    padding-bottom: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
