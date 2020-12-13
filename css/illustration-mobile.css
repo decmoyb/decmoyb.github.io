@@ -65,19 +65,32 @@ body {
 } 
 
 .images {
-    text-align: center;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.imagecolumn {
+    flex: 25%;
+    max-width: 25%;
+}
+
+
 img {
-    width: 95%;
-    height: auto;
+    width: 90%;
 
 }
 
 p.imagetext {
     font-family: dec-3;
     font-size: .5rem;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+}
+
+p.imagetext-mobile {
+    display: none;
+    font-family: dec-3;
+    font-size: .5rem;
+    padding-top: 1vw;
+    padding-bottom: 4vw;
 }

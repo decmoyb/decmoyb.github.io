@@ -12,3 +12,14 @@
         flex: 25%;
         max-width: 25%;
     }
+
+    p.imagetext {
+        display: none;
+      }
+      
+      p.imagetext-desktop {
+        display: block;
+        font-family: dec-3;
+        font-size: .5rem;
+    
+      }
