@@ -65,13 +65,11 @@ body {
 } 
 
 .images {
-    display: flex;
-    flex-wrap: wrap;
+   text-align: center;
 }
 
 .imagecolumn {
-    flex: 25%;
-    max-width: 25%;
+    text-align: center;
 }
 
 
