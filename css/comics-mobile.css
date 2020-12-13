@@ -40,6 +40,15 @@
   background-color: black;
 }
 
+
+.title {
+  font-family: dec-3;
+  color: black;
+  text-align: center;
+  font-size: .8rem;
+  margin: 0px;
+}
+
 .panel {
   font-family: dec-3;
   font-size: .8rem;
@@ -49,4 +58,14 @@
   transition: max-height 0.2s ease-out;
   width: 100%;
   margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.comicimages {
+  width: 90%;
+  font-family: dec-3;
+  font-size:.5rem;
 }

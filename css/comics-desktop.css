@@ -2,3 +2,13 @@
     .accordion {
         padding: 1%;  
       }
+
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imagecolumns {
+        flex: 25%;
+        max-width: 25%;
+    }
