@@ -94,6 +94,7 @@ p.imagetext-mobile {
 }
 
 .thanks {
+    padding-top: 5vw;
     font-family: dec-3;
-    font-size: 1rem;
+    font-size: .8rem;
 }
