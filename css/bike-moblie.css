@@ -3,8 +3,9 @@
     src: url(dec-3.ttf);
   }
 body {
-    background-color: white;
+    background-color: rgb(236, 106, 106);
 }
+
 
 /* Menu */
 
@@ -15,8 +16,8 @@ body {
 }
 
 #header-link:link, #header-link:visited {
-    background-color: black;
-    color: white;
+    background-color: #FFFF95;
+    color:rgb(236, 106, 106);
     text-align: center;
     text-decoration: none;
 }    
@@ -27,8 +28,8 @@ body {
 }
 
 .accordion {
-  background-color: black;
-  color: white;
+  background-color:#FFFF95;
+  color: rgb(236, 106, 106);
   font-family: dec-3;
   cursor: pointer;
   padding: 4%;
@@ -41,13 +42,13 @@ body {
 }
 
 .active, .accordion:hover {
-  background-color: black;
+  background-color: #FFFF95;
 }
 
 .panel {
   font-family: dec-3;
   font-size: .8rem;
-  background-color: black;
+  background-color:#FFFF95;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -57,45 +58,22 @@ body {
 
 /* /Menu */
 
+/* Title */
 .title {
     font-family: dec-3;
-    color: black;
+    color: #FFFF95;
     text-align: center;
-    font-size: 170%;
+    font-size: .8rem;
     margin: 0px;
 
 }
+/* /Title */
 
-.text {
-    font-family: dec-3;
-    text-align: center;
-    font-size: .8rem;
-    padding-bottom: 1vw;
-}
-
-text:link {
-    background-color: white;
-}
-
-
-#art-links:link, #art-links:visited {
-    text-decoration: none;
-    color: black;
-}
-
-#art-links:hover, #art-links:active {
-    background-color: black;
-    color:white;
-    padding-top: 0px;
-    padding-left: .8vw;
-    padding-bottom: .5vw;
-    padding-right: 0vw;
-}
-
-img {
-    width: 100%;
-}
-.medium-man {
+.services {
+    background: orange;
+    width: 80%;
     margin: auto;
-    width: 100%;
+    font-family: dec-3;
+    color: #FFFF95;
+    font-size: .8rem;
 }
