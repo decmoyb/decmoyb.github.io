@@ -80,8 +80,8 @@ img {
   font-size: .8rem;
   background-color: black;
   font-family: dec-3;
-  padding: 1vw;
-  width: 10%;
+  width: 100%;
+  margin: auto;
 }
 
 #return:link, #return:visited {
