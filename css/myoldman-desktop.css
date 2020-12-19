@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+    .accordion {
+      padding: 1%;  
+    }
+  
+    .images {
+      width: 40%;
+      margin: auto;
+    }
+  
+    .return {
+      width: 40%;
+    }
+  
+    }
+    
+  

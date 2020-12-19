@@ -3,21 +3,21 @@
     src: url(dec-3.ttf);
   }
 body {
-    background-color: rgb(236, 106, 106);
+    background-color: #FFFF95;
 }
 
 
 /* Menu */
 
 #header-link:hover, #header:active {
-    background-color: white;
-    color: black;
+    background-color: skyblue;
+    color: #FFFF95;
     padding: 1px;
 }
 
 #header-link:link, #header-link:visited {
-    background-color: #FFFF95;
-    color:rgb(236, 106, 106);
+    background-color: skyblue;
+    color:#FFFF95;
     text-align: center;
     text-decoration: none;
 }    
@@ -28,8 +28,8 @@ body {
 }
 
 .accordion {
-  background-color:#FFFF95;
-  color: rgb(236, 106, 106);
+  background-color:skyblue;
+  color:#FFFF95;
   font-family: dec-3;
   cursor: pointer;
   padding: 4%;
@@ -42,13 +42,13 @@ body {
 }
 
 .active, .accordion:hover {
-  background-color: #FFFF95;
+  background-color: skyblue;
 }
 
 .panel {
   font-family: dec-3;
   font-size: .8rem;
-  background-color:#FFFF95;
+  background-color:skyblue;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -70,10 +70,21 @@ body {
 /* /Title */
 
 .services {
-    background: orange;
+
     width: 80%;
     margin: auto;
     font-family: dec-3;
-    color: #FFFF95;
+    color: skyblue;
     font-size: .8rem;
+}
+
+#contact {
+  background-color: skyblue;
+  color: #FFFF95;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+.prices {
+  font-size: .6rem;
 }
