@@ -27,14 +27,6 @@ body {
     position: relative;
 }
 
-.title {
-  font-family: dec-3;
-  color: black;
-  text-align: center;
-  font-size: .8rem;
-  margin: 0px;
-}
-
 .accordion {
   background-color: black;
   color: white;
