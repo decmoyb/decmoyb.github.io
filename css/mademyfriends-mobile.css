@@ -1,0 +1,59 @@
+@font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+  }
+body {
+    background-color: rgb(236, 106, 106);
+}
+
+
+/* Menu */
+
+#header-link:hover, #header:active {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+#header-link:link, #header-link:visited {
+    background-color: #FFFF95;
+    color:rgb(236, 106, 106);
+    text-align: center;
+    text-decoration: none;
+}    
+
+.button {
+    text-align: center;
+    position: relative;
+}
+
+.accordion {
+  background-color:#FFFF95;
+  color: rgb(236, 106, 106);
+  font-family: dec-3;
+  cursor: pointer;
+  padding: 4%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .8rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: #FFFF95;
+}
+
+.panel {
+  font-family: dec-3;
+  font-size: .8rem;
+  background-color:#FFFF95;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 100%;
+  margin: auto;
+}
+
+/* /Menu */
