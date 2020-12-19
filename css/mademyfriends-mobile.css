@@ -3,7 +3,7 @@
     src: url(dec-3.ttf);
   }
 body {
-    background-color: rgb(236, 106, 106);
+    background-color: white;
 }
 
 
@@ -16,8 +16,8 @@ body {
 }
 
 #header-link:link, #header-link:visited {
-    background-color: #FFFF95;
-    color:rgb(236, 106, 106);
+    background-color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
 }    
@@ -28,8 +28,8 @@ body {
 }
 
 .accordion {
-  background-color:#FFFF95;
-  color: rgb(236, 106, 106);
+  background-color: black;
+  color: white;
   font-family: dec-3;
   cursor: pointer;
   padding: 4%;
@@ -42,13 +42,13 @@ body {
 }
 
 .active, .accordion:hover {
-  background-color: #FFFF95;
+  background-color: black;
 }
 
 .panel {
   font-family: dec-3;
   font-size: .8rem;
-  background-color:#FFFF95;
+  background-color:black;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
