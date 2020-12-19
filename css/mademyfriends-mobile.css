@@ -65,3 +65,34 @@ body {
 }
 
 /* /Menu */
+
+img {
+  width: 100%;
+}
+
+.images {
+  padding-bottom: 4vw;
+}
+
+.return {
+  text-decoration: none;
+  color: white;
+  font-size: .8rem;
+  background-color: black;
+  font-family: dec-3;
+  padding: 1vw;
+  width: 10%;
+}
+
+#return:link, #return:visited {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.reurn:hover, .returnr:active {
+  background-color: white;
+  color: black;
+  padding: 1px;
+}
