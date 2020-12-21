@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+
+    .text{
+        width: 30%;
+    }
+
+    .return {
+        padding-top: 4vw;
+    }
+
+    #paragraph2 {
+        padding-top: 2vw;
+    }
+}
