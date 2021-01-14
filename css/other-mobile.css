@@ -96,7 +96,13 @@ text:link {
 img {
     width: 100%;
 }
-.medium-man {
-    margin: auto;
-    width: 100%;
+
+#somesuit-clip {
+    width: 300px;
+    height: 168.75px;
 }
+#somesuit-interview {
+    width: 300px;
+    height: 156.198px;
+}
+
