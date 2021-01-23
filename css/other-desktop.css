@@ -22,16 +22,28 @@
 img {
     width: 40%;
 }
-.medium-man {
-    margin: auto;
-    width: 50%;
+
+.title {
+    font-size: 170%;
+
 }
 
 #somesuit-clip {
     width: 605px;
     height: 315px;
 }
-#somesuit-interview {
+
+#ah-today {
+    width: 605px;
+    height: 340.313px;
+}
+
+#me-planned-it {
+    width: 605px;
+    height: 340.313px;
+}
+
+#got-old {
     width: 605px;
     height: 340.313px;
 }

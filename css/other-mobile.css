@@ -61,7 +61,7 @@ body {
     font-family: dec-3;
     color: black;
     text-align: center;
-    font-size: 170%;
+    font-size: 100%;
     margin: 0px;
 
 }
@@ -70,7 +70,7 @@ body {
     font-family: dec-3;
     text-align: center;
     font-size: .8rem;
-    padding-bottom: 1vw;
+    padding-bottom: 1.5vw;
     padding-top: 3vw;
 }
 
@@ -101,8 +101,18 @@ img {
     width: 300px;
     height: 168.75px;
 }
-#somesuit-interview {
+
+#ah-today {
     width: 300px;
     height: 156.198px;
 }
 
+#me-planned-it {
+    width: 300px;
+    height: 156.198px;
+}
+
+#got-old {
+    width: 300px;
+    height: 156.198px;
+}
