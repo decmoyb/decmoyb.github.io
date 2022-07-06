@@ -1,0 +1,90 @@
+@font-face {
+    font-family: dec-3;
+    src: url(dec-3.ttf);
+  }
+body {
+    background-color: #FFFF95;
+}
+
+
+/* Menu */
+
+#header-link:hover, #header:active {
+    background-color: skyblue;
+    color: #FFFF95;
+    padding: 1px;
+}
+
+#header-link:link, #header-link:visited {
+    background-color: skyblue;
+    color:#FFFF95;
+    text-align: center;
+    text-decoration: none;
+}    
+
+.button {
+    text-align: center;
+    position: relative;
+}
+
+.accordion {
+  background-color:skyblue;
+  color:#FFFF95;
+  font-family: dec-3;
+  cursor: pointer;
+  padding: 4%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .8rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+  background-color: skyblue;
+}
+
+.panel {
+  font-family: dec-3;
+  font-size: .8rem;
+  background-color:skyblue;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 100%;
+  margin: auto;
+}
+
+/* /Menu */
+
+/* Title */
+.title {
+    font-family: dec-3;
+    color: #FFFF95;
+    text-align: center;
+    font-size: .8rem;
+    margin: 0px;
+
+}
+/* /Title */
+
+.services {
+
+    width: 80%;
+    margin: auto;
+    font-family: dec-3;
+    color: skyblue;
+    font-size: .8rem;
+}
+
+#contact {
+  background-color: skyblue;
+  color: #FFFF95;
+  padding: 1vh;
+  text-decoration: none;
+}
+
+.prices {
+  font-size: .6rem;
+}
