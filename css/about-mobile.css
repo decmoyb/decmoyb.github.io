@@ -44,3 +44,37 @@ body {
 #paragraph2 {
     padding-top: 3vw;
 }
+
+.button {
+    text-align: center;
+    position: relative;
+}
+
+.accordion {
+  background-color: black;
+  color: white;
+  font-family: dec-3;
+  cursor: pointer;
+  padding: 4%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: .8rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.active, .accordion:hover {
+    background-color: #ffa6b3;
+  }
+  
+.panel {
+    font-family: dec-3;
+    font-size: .8rem;
+    background-color: skyblue;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 100%;
+    margin: auto;
+  }

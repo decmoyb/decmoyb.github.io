@@ -60,6 +60,15 @@
   margin: auto;
 }
 
+.return {
+  padding-top: 14vw;
+  text-align: center;
+  font-family: dec-3;
+  color: #ffa6b3;
+  font-size: .6rem;
+  text-decoration: none;
+}
+
 img {
   width: 90%;
 }
