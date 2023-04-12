@@ -88,3 +88,46 @@ body {
 .prices {
   font-size: .6rem;
 }
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+  color: skyblue !important;
+  }
+
+/*Button color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button {
+  background: skyblue;
+  }
+
+/*Change font size*/
+.ec-size .ec-store .grid-product__price { 
+  font-size: 1rem !important; 
+  }
+
+  .ecwid div, .ecwid span, .ecwid a, .ecwid p {
+    font-family: dec-3!important;
+    }
+
+    /*Change font size*/
+.ec-size .ec-store .grid-product__price { 
+  font-size: 1ch !important; 
+  }
+
+  /*Product price on catalog page*/
+/*Change font color*/
+.ec-size .ec-store .grid-product__price-amount {
+  color: skyblue;
+  }
+
+
+/*Button color*/
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button {
+  background: #FFA500;
+  }
+
+
+
+ /*Buy Now Button color*/
+.ec-size .ec-store .grid-product__buy-now .form-control__button { 
+  background: #FFFAFA;
+  color: #000000; 
+}
