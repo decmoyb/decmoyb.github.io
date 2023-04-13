@@ -39,7 +39,7 @@
     .panel {
         font-family: dec-3;
         font-size: .8rem;
-        background-color: #FFFF95;
+        background-color: #ffa6b3;
         max-height: 0px;
         overflow: hidden;
         transition: max-height 0.2s ease-out;

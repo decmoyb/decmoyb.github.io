@@ -71,10 +71,14 @@ body {
 .panel {
     font-family: dec-3;
     font-size: .8rem;
-    background-color: skyblue;
+    background-color: #ffa6b3;
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     width: 100%;
     margin: auto;
   }
+
+#header-link {
+    color: #FFFF95;
+}
