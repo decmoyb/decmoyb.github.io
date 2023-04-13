@@ -10,13 +10,13 @@ body {
 /* Menu */
 
 #header-link:hover, #header:active {
-    background-color: skyblue;
+    background-color: black;
     color: #FFFF95;
     padding: 1px;
 }
 
 #header-link:link, #header-link:visited {
-    background-color: skyblue;
+    background-color: black;
     color:#FFFF95;
     text-align: center;
     text-decoration: none;
@@ -28,7 +28,7 @@ body {
 }
 
 .accordion {
-  background-color:skyblue;
+  background-color:black;
   color:#FFFF95;
   font-family: dec-3;
   cursor: pointer;
@@ -42,13 +42,13 @@ body {
 }
 
 .active, .accordion:hover {
-  background-color: skyblue;
+  background-color: black;
 }
 
 .panel {
   font-family: dec-3;
   font-size: .8rem;
-  background-color:skyblue;
+  background-color:black;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -61,7 +61,7 @@ body {
 /* Title */
 .title {
     font-family: dec-3;
-    color: skyblue;
+    color: black;
     text-align: center;
     font-size: 2rem;
     margin: 0px;
