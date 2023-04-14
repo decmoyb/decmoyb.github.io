@@ -3,7 +3,9 @@
     src: url(dec-3.ttf);
   }
 
-
+#about {
+    font-size: 1rem;
+}
 
 body {
   background-color: #ffa6b3;
@@ -14,7 +16,7 @@ body {
   text-align: center;
   font-family: dec-3;
   color: #FFFF95;
-  font-size: 60%;
+  font-size: 75%;
 }
 
 .about {
@@ -23,9 +25,7 @@ body {
   right: 0px;
 }
 
-#about {
-  font-size: .9rem;
-}
+
 
 .space {
   padding: 4vw;
