@@ -4,7 +4,7 @@
   }
 
 #about {
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 a:link, a:visited {
   background-color: #ffa6b3;
   color: #FFFF95;
-  padding: 14px 25px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
