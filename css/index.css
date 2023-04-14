@@ -19,9 +19,21 @@ body {
 
 .about {
   position: absolute;
-  top: 2rem;
   left: 0px;
   right: 0px;
+}
+
+#about {
+  font-size: 2rem;
+}
+
+.space {
+  padding: 1vw;
+}
+
+.alternative {
+  text-align: center;
+
 }
 
 .main {
@@ -61,7 +73,6 @@ a:hover, a:active {
   .main {
     position: static;
     text-align: center;
-
     transform: none;
   }
   
@@ -70,3 +81,40 @@ a:hover, a:active {
     text-align: center;
   }
 }
+
+/*Accordian Feature*/
+
+
+      .button {
+        text-align: center;
+        position: relative;
+      }
+
+      .accordion {
+      background-color: #ffa6b3;
+      color: #FFFF95;
+      font-family: dec-3;
+      cursor: pointer;
+      padding: 4%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: .8rem;
+      transition: 0.3s;
+      text-align: center;
+      }
+
+      .active, .accordion:hover {
+      background-color: #ffa6b3;
+      }
+
+      .panel {
+      font-family: dec-3;
+      font-size: .8rem;
+      background-color: #FFFF95;
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      width: 100%;
+      margin: auto;
+      }
