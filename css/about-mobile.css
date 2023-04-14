@@ -16,12 +16,12 @@ body {
 
 .text {
     padding-top: 2vw;
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
     font-family: dec-3;
     color: #ffa6b3;
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 .return {
@@ -50,18 +50,31 @@ body {
     position: relative;
 }
 
+.email {
+        font-family: dec-3;
+        color: #FFFF95;
+        text-align: center;
+        padding: 2%;
+}
+
+a:link, a:visited {
+    background-color:  #ffa6b3;
+    color: #FFFF95;
+    padding: 2%;
+  }
+
 .accordion {
-  background-color: black;
-  color: white;
-  font-family: dec-3;
-  cursor: pointer;
-  padding: 4%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: .8rem;
-  transition: 0.3s;
-  text-align: center;
+    background-color: #ffa6b3;
+    color: #FFFF95;
+    font-family: dec-3;
+    cursor: pointer;
+    padding: 2%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: .8rem;
+    transition: 0.3s;
+    text-align: center;
 }
 
 .active, .accordion:hover {
