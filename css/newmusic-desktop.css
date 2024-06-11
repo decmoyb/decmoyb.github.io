@@ -12,4 +12,38 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+      .button {
+        text-align: center;
+        position: relative;
+    }
+    
+    .accordion {
+      background-color: #ffa6b3;
+      color: #FFFF95;
+      font-family: dec-3;
+      cursor: pointer;
+      padding: 1%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: .8rem;
+      transition: 0.3s;
+      text-align: center;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ffa6b3;
+    }
+    
+        .panel {
+            font-family: dec-3;
+            font-size: .8rem;
+            background-color: #ffa6b3;
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            width: 100%;
+              }
+    }
 }
