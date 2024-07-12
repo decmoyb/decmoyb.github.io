@@ -19,7 +19,7 @@
 }
 
 .accordion {
-  background-color: #ffa6b3;
+  background-color: skyblue;
   color: #FFFF95;
   font-family: dec-3;
   cursor: pointer;
@@ -33,7 +33,7 @@
 }
 
 .active, .accordion:hover {
-  background-color: #ffa6b3;
+  background-color: skyblue
 }
 
     .panel {
